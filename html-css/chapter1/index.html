@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <!-- モバイル端末で最適にweb表示させるためのコード記述 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COACHTECH</title>
+</head>
+<body>
+    <p>COACHTECHはプログラミングスクール</p>
+    <h1>挑戦</h1>
+    <h2>本気にチャレンジしたいことに<br>本気に競う相手と<br>チャレンジできる世界を作るために。</h2>
+    <p>エンジニアやプログラマー、フリーランスなど、<br>自由な働き方を目指す、人生を変えたい人材が増えています。</p>
+    <p>でも、本当に「自由だ」と<br>言い切ることができるでしょうか。</p>
+    <p>日々の仕事に追われながら、<br>自分がやりたいことを見失ってしまってはいないでしょうか。</p>
+    <!-- 強調（斜体） -->
+    <em>強調タグを使っています</em>
+    <br>
+    <!-- 太文字 -->
+    <strong>重要性タグを使っています。</strong>
+    <br>
+    <li>箇条書き（単独では使わないよ）</li>
+
+    <ul>
+        <li>順不同のリストを表しています</li>
+        <li>ulタグの子要素には、liタグしか配置できません。</li>
+    </ul>
+    <ol>
+        <li>番号順のリストを表しています</li>
+        <li>olタグの子要素には、liタグしか配置できません。</li>
+    </ol>
+    <!-- dl=枠、dt=種類、dd=dtの説明 -->
+    <dl>
+        <dt>ソフトドリンク</dt>
+        <dd>一般の飲料</dd>
+        <dt>お酒</dt>
+        <dd>アルコール飲料</dd>
+    </dl>
+    <!-- <a href="リンク先のパス">アンカーテキスト</a> -->
+    <a href="detail.html">詳しく見る</a>
+    <br>
+    <!-- 外部のwebサイトへのリンク -->
+    <a href="https://estra.jp/">株式会社estra</a>
+    <!-- 別ウィンドウでリンク先を表示するサンプル -->
+    <a href="https://estra.jp/" target="_blank">別ウィンドウで表示する</a>
+
+    <!-- 練習問題 <a href="coachtec/category/category.html">category.htmlへ -->
+
+    <!-- 画像表示 -->
+    <img src="img/coachtech.png" alt="coachtec">
+    <br>
+
+    <img src="img/coachtech.png" alt="coachtec" width="240" height="80">
+
+    <!-- 動画の埋め込み -->
+    <!-- <video src="video/video.mp4" controls></video> -->
+
+    <!-- 動画自動再生 -->
+    <!-- <video src="video/video.mp4" controls autoplay muted></video> -->
+
+    <!-- 動画自動再生ループ付き -->
+    <!-- <video src="video/video.mp4" controls loop autoplay muted></video> -->
+
+    <!-- 動画のサイズ変更 -->
+    <video width="400px" height="200px" src="video/video.mp4" controls></video>
+    <br>
+
+    <!-- 1-13 テーブルタグ -->
+    <!-- borderで枠を作成 -->
+    <table border="1">
+        <tr>
+        <!-- colspan(初期値1)で水平方向にセルを結合 -->
+            <th colspan="2">名前</th>
+            <th>年齢</th>
+        </tr>
+        <tr>
+            <td>佐藤</td>
+            <td>太郎</td>
+            <td>39</td>
+        </tr>
+        <tr>
+            <td>田中</td>
+            <td>次郎</td>
+            <td>20</td>
+        </tr>
+    </table>
+    <!-- rowspan(初期値1)で垂直方向にセルの結合 -->
+    <table border="2">
+        <tr>
+            <th rowspan="3">フルーツ</th>
+            <td>りんご</td>
+        </tr>
+        <tr>
+            <td>みかん</td>
+        </tr>
+        <tr>
+            <td>さくらんぼ</td>
+        </tr>
+    </table>
+    <!-- 練習問題 -->
+    <table border="1">
+        <tr>
+            <th></th>
+            <th colspan="3">見出し</th>
+        </tr>
+        <tr>
+            <th rowspan="2">見出し2</th>
+            <td>データ1</td>
+            <td>データ2</td>
+            <td>データ3</td>
+        </tr>
+        <tr>
+            <td>データ4</td>
+            <td>データ5</td>
+            <td>データ6</td>
+        </tr>
+    </table>
+
+</body>
+</html>
