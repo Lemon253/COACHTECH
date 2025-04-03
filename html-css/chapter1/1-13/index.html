@@ -6,9 +6,27 @@
     <title>フォームタグ</title>
 </head>
 <body>
-    <!-- <form action="送信先" method="get(初期値) / post"> -->
-    
-    <!-- <input type="部品の種類" name="部品の名前" value="初期値 / 送信されるデータ / ボタンのラベル"> -->
-    
+
+<!-- <textarea name="部品の名前" cols="1行あたりに表示するだいたいの文字数" rows="表示する行数"></textarea> -->
+
+<form action="detail.html" method="get">
+    <textarea name="textarea" cols="30" rows="3"></textarea>
+    <br>
+    <select name="select">
+        <option value="太郎">太郎</option>
+        <option value="次郎">次郎</option>
+        <option value="三郎">三郎</option>
+    </select>
+    <br>
+
+    <!-- labelタグにラベルと部品の両方を囲んだサンプル -->
+    <label>お名前:<input type="text" name="name" /> </label>
+    <br>
+
+    <!-- labelタグにfor属性を使って部品と関連付けるサンプル -->
+    <label for="name">お名前:</label>
+    <input type="text" name="name" id="name" />
+
+</form>
 </body>
 </html>
