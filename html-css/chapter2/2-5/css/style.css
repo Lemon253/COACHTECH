@@ -1,0 +1,74 @@
+/* 全てに適用 */
+/*
+* {
+    color: red;
+}
+
+div span {
+    color: blue;
+}*/
+/* 直下の子要素のみ反映 */
+div > span {
+    color: green;
+}
+/* 隣接セレクタのみ反映 */
+/*
+p + span {
+    color: blue;
+}
+    */
+/* 複数のセレクタ */
+/*p, span{
+    color: black;
+}*/
+/* 最初の要素にスタイル適用 */
+/*
+p:first-child {
+    color: green;
+}
+    */
+/* 指定した要素の最初のみスタイル適用 */
+
+p:first-of-type {
+    color: black;
+}
+/* 最後の要素にスタイル適用 */
+p:last-child {
+    color: green;
+}
+/* 指定した要素の最後にスタイルを適用 */
+p:last-of-type {
+    color: yellow;
+}
+/* 全ての子要素の中でn番目の要素にスタイルを適用する */
+p:nth-child(3) {
+    color: black;
+}
+/* 同じ階層にある全ての要素の中からnの倍数に適用 */
+p:nth-child(2n) {
+    color: red;
+}
+/* 階層が同じ要素の中で3の倍数-1に適用 */
+p:nth-child(3n-1) {
+    color: blue;
+}
+/* 階層が同じ要素の中で2番目以降全てに適用 */
+p:nth-child(n+2) {
+    color: gray;
+}
+/* 指定した子要素の中のn番目にスタイルを適用する */
+p:nth-of-type(3) {
+    color: red;
+}
+/* 指定要素の中で3の倍数に適用 */
+p:nth-of-type(3n) {
+    color: red;
+}
+/* 指定要素の中で3の倍数-1に適用 */
+p:nth-of-type(3n-1) {
+    color: blue;
+}
+/* 指定要素の中で3番目以降全てに適用 */
+p:nth-of-type(n+3) {
+    color: brown;
+}
