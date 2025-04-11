@@ -1,0 +1,24 @@
+#blue {
+    color: blue;
+}
+
+.purple {
+    color: purple;
+}
+
+p[class]{
+    color: green;
+}
+
+p:last-child{
+    color: blue;
+}
+
+/* 属性指定、擬似要素指定はユニバーサルセレクタよりも優先度は高くなります。 */
+* {
+    color: black;
+}
+
+p{
+    color: black!important;
+}

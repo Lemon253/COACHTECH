@@ -1,0 +1,73 @@
+.flex {
+    /* 子要素を横並び */
+    display: flex;
+    height: 300px;
+
+    /* 並べる方向の設定 */
+    /* 左揃え */
+    /* flex-direction: row; */
+
+    /* 右から左へ配置 */
+    /* flex-direction: row-reverse; */
+
+    /* 上から下へ配置 */
+    /* flex-direction: column; */
+
+    /* 下から上へ配置 */
+    /* flex-direction: column-reverse; */
+
+
+    /* 子要素の水平方向の配置位置設定 */
+    /* 左揃え */
+    /* justify-content: flex-start; */
+
+    /* 右揃え */
+    /* justify-content: flex-end; */
+
+    /* 中央揃え */
+    /* justify-content: center; */
+
+    /* 最初と最後の子要素を両端に配置し、その間の子要素は均等配置 */
+    /* justify-content: space-between; */
+
+    /*全ての子要素が均等配置*/
+    /* justify-content: space-around; */
+
+
+    /* 垂直方向の配置 */
+    /* 親要素の高さまたはコンテンツの一番多い子要素の高さに合わせて広げて配置 */
+    /* align-items: stretch; */
+
+    /* 親要素の開始位置から配置 */
+    /* align-items: flex-start; */
+
+    /* 親要素の終点から配置 */
+    /* align-items: flex-end; */
+
+    /* 中央揃え(垂直方向) */
+    /* align-items: center; */
+
+
+    /* 折り返しの設定 */
+    /* 折り返し */
+    /* flex-wrap: wrap; */
+
+    /* 下から横に並べ、上に折り返し */
+    flex-wrap: wrap-reverse;
+
+    /* 折り返しなし */
+    /* flex-wrap: nowrap; */
+
+
+
+    background-color: yellow;
+}
+
+.box {
+    background-color: red;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    width: 100px;
+    height: 100px;
+}

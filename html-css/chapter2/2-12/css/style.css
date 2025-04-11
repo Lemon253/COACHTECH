@@ -1,0 +1,35 @@
+.width {
+    background: #ff0000;
+    width: 300px;
+}
+.parent {
+    width: 1000px;
+    background-color: green;
+}
+.child {
+    width: 25%;
+    background-color: yellow;
+}
+/* 値は0~100 */
+.parent_vw {
+    width: 50vw;
+    background: red;
+}
+.height {
+    background: blue;
+    height: 300px;
+}
+.parent_height {
+    background-color: red;
+    height: 200px;
+}
+.child_height {
+    display: inline-block;
+    height: 50%;
+    background-color: yellow;
+}
+/* 値は0~100 */
+.parent_vh {
+    height: 50vh;
+    background-color: green;
+}

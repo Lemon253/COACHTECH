@@ -1,0 +1,26 @@
+.solid {
+    border: solid 2px #ff0000;
+}
+
+/* 角丸 */
+.rounded-corner {
+    width: 200px;
+    height: 200px;
+    background: #ff0000;
+    /* border-radius: 左上 右上 右下 左下; */
+    border-radius: 30px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 50%;
+}
+
+.practice {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 60px 0px 60px 0px;
+}

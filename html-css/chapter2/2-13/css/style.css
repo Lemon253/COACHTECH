@@ -1,0 +1,48 @@
+h1 {
+    background: #ff0000;
+    /* 上下左右 */
+    margin: 30px;
+    /* 上下、左右 */
+    /* margin: 10px 20px; */
+    /* 上、左右、下 */
+    /* margin: 10px 20px 30px; */
+    /* 上、右、左、下 */
+    /* margin: 10px 20px 30px 40px; */
+}
+p {
+    background: #000000;
+    color: #fff;
+}
+h2 {
+    background: #ff0000;
+    padding: 30px;
+}
+
+.boxsizing {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 30px;
+    border: 20px solid blue;
+    margin: 100px auto 0;
+}
+
+.content-box {
+    /* 中央揃え */
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+
+.border-box {
+    /* 右揃え */
+    margin: 0px 0px 0px auto;
+    box-sizing: border-box;
+}
+.box {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    margin: 50px auto;
+    
+
+}

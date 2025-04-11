@@ -1,0 +1,67 @@
+/* カラーネームで色指定 */
+.text {
+    color: red;
+}
+/* 16進カラーコード */
+.text {
+    color: #21cc0aef;
+}
+/* RGBで指定 */
+.text {
+    color: rgb(0, 0, 255);
+}
+/* rgbaで色と透明度を設定 */
+.text {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+/* フォントサイズの指定 */
+.text {
+    font-size: 30px;
+}
+/*
+font-size: 16px;
+font-size: 50%;
+font-size: 0.5em;
+font-size: 2rem;
+*/
+
+/* 文字の太さ */
+.text {
+    font-weight: bolder;
+}
+/*
+normal（初期値）
+bold
+bolder
+lighter
+100〜900（初期値は400）
+*/
+
+
+/* 文字を斜めにする */
+.text {
+    font-style: italic;
+}
+/*
+normal（初期値）
+italic
+oblique
+*/
+
+/* 文字に線をつける */
+.text {
+    text-decoration: underline;
+}
+/*
+none（初期値）
+underline
+overline
+line-through
+*/
+
+/* フォントの指定方法 */
+/* font-family: 英数字のフォント,日本語のフォント,総称フォント; */
+.text {
+    font-family: Helvetica, "游ゴシック", sans-serif;
+}
