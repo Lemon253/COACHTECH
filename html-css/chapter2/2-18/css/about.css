@@ -1,0 +1,31 @@
+.about {
+    background-color: #ebebeb;
+    padding: 60px 0;
+    margin-top: 200px;
+    display: flex;
+    /* 全ての要素を均等に配置 */
+    justify-content: space-around;
+}
+
+.about__img img {
+    /* 画像の横幅を親要素の最大値まで表示 */
+    width: 100%;
+    
+    /* 画像の横幅を親要素の最大値まで表示 */
+    height: 100%;
+}
+
+.about__img {
+     /* 範囲の確認  */
+    /* background-color: red; */
+
+    margin-top: -80px;
+    /* position: relative;
+    top: -80px; 使う必要はない*/
+
+    width: 40%;
+}
+
+.about__content {
+    width: 40%;
+}

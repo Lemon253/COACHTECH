@@ -1,0 +1,78 @@
+
+.text::before {
+    /* content: "COACH"; */
+    content: "前につく";
+    color: #ff0000;
+}
+
+
+.text::after {
+    /* content: "TECH"; */
+    content: "後ろにつく";
+    color: blue;
+}
+
+.ttl::before {
+    /* contentで画像出力（あまり使わない） */
+    /* content: url(../img/inspiration.svg); */
+
+    /* backgroundで画像出力 */
+    content: "";
+    background: url(../img/inspiration.svg);
+    /* 画像の大きさを要素に合わせる */
+    background-size: cover;
+    /* インラインブロック要素としての垂直位置を中央に配置 */
+    vertical-align: middle;
+    /* 要素の大きさと種類設定 */
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.download__btn {
+    position: relative;
+    background: #55bbbb;
+    width: 200px;
+    display: block;
+    padding: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 100px;
+}
+
+.download__btn::after {
+    content: "";
+    position: absolute;
+    /* アイコンの位置調整 */
+    top: 50%;
+    right: 15px;
+    background: url(../img/download__icon.svg);
+    /* アイコンの高さと幅を要素の大きさと同じに */
+    background-size: cover;
+    /* 要素のサイズ設定 */
+    width: 30px;
+    height: 30px;
+    /* アイコンを縦方向に中央に揃える */
+    transform: translate(0, -50%);
+}
+
+.speech__bubble {
+    padding: 10px 20px;
+    background: red;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+}
+.speech__bubble::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    content: "";
+    margin-left: -10px;
+    border: 10px solid transparent;
+    border-top: 10px solid red;
+}

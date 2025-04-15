@@ -1,0 +1,40 @@
+.item1 {
+    background: #f00;
+    width: 150px;
+    height: 150px;
+    float: left;
+    /* float: right; */
+}
+
+.item2 {
+    background: #00ff00;
+    width: 150px;
+    height: 150px;
+    float: left;
+    /* float: right; */
+}
+
+.item3 {
+    background: #0000ff;
+    width: 150px;
+    height: 150px;
+    /* float: left; */
+    /* float: right; */
+    clear: both;
+}
+
+.float {
+    max-width: 760px;
+    width: 100%;
+    margin: 60px auto;
+}
+
+.float__img {
+    width: 400px;
+    /* 箱の大きさ調整 */
+    float: left;
+}
+
+img {
+    width: 100%;
+}

@@ -1,0 +1,63 @@
+/* 強調テキスト */
+.text1 {
+    font-size: 14px;
+}
+
+.emphasis {
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+}
+
+/* マーカーテキスト */
+.marker {
+    font-size: 14px;
+    font-weight: bold;
+    /* マーカー部分の設定（グラデーションで設定する） */
+    background: linear-gradient(transparent 75%, yellow 75%);
+}
+
+/* リンク */
+.link {
+    font-size: 14px;
+    color: #0051e0;
+}
+
+/* 下線見出し */
+.title-inner {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 3px dashed #000;
+    padding-bottom: 1px;
+}
+
+/* 左線見出し */
+.title2 {
+    padding: 5px;
+    border-left: 3px solid #000;
+    background-color: #f4f4f4;
+    width: 120px;
+}
+
+/* 両サイド線見出し */
+.title3 {
+    position: relative;
+    /* 横幅いっぱいまで線を引きたいため */
+    display: inline-block;
+    padding: 0 55px;
+}
+.title3::before, .title3::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: black;
+}
+.title3::before {
+    left: 0;
+}
+.title3::after {
+    right: 0;
+}

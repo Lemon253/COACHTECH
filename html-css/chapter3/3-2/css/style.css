@@ -1,0 +1,16 @@
+p {
+    color: black;
+}
+
+/* 幅が768ピクセル以下の場合 */
+@media screen and (max-width: 768px) {
+    p {
+        color: blue;
+    }
+}
+/* 幅が480ピクセル以下の場合 */
+@media screen and (max-width: 480px) {
+    p {
+        color: red;
+    }
+}

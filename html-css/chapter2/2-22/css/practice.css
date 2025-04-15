@@ -1,0 +1,46 @@
+.contact__btn {
+    position: relative;
+    background: #55bbbb;
+    width: 200px;
+    display: block;
+    padding: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.contact__btn::before {
+    content: "";
+    position: absolute;
+    /* アイコンの位置調整 */
+    top: 50%;
+    left: 15px;
+    background: url(../img/練習問題/mail.svg) no-repeat;
+    /* アイコンの高さと幅を要素の大きさと同じに */
+    background-size: cover;
+    /* 要素のサイズ設定 */
+    width: 30px;
+    height: 30px;
+    /* アイコンを縦方向に中央に揃える */
+    transform: translateY(-50%);
+}
+
+.contact__btn::after {
+    content: "";
+    position: absolute;
+    /* アイコンの位置調整 */
+    top: 50%;
+    right: 15px;
+    background: url(../img/練習問題/download__icon.svg);
+    /* アイコンの高さと幅を要素の大きさと同じに */
+    background-size: cover;
+    /* 要素のサイズ設定 */
+    width: 30px;
+    height: 30px;
+    /* アイコンの向きを調整し、縦方向に中央揃え */
+    transform: translateY(-50%) rotate(-90deg);
+}

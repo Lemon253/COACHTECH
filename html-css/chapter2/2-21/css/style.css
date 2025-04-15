@@ -1,0 +1,42 @@
+.item { 
+    height: 100px;
+    width: 100px;
+    background: red;
+    /* 時計回りに30度回転 */
+    /* transform: rotate(30deg); */
+    /* 半時計回りに30度回転 */
+    /* transform: rotate(-30deg); */
+
+    /* 移動 */
+    transform: translate(30px, 50px);
+}
+
+/* translateを利用して上下左右中央に配置 */
+.parent {
+    position: relative;
+    background: black;
+    color: white;
+    width: 300px;
+    height: 300px;
+}
+
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* flexboxを利用して上下左右中央に配置 */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008888;
+    height: 600px;
+}
+.flex__child {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
