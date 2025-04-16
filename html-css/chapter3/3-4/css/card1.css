@@ -1,0 +1,20 @@
+.card {
+    width: 300px;
+    padding: 20px 12px 10px;
+    border: 1px solid #e9eaea;
+    border-radius: 3px;
+}
+.title {
+    font-size: 20px;
+}
+.text {
+    padding: 10px 0;
+    font-size: 14px;
+}
+.link {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #d7b071;
+}

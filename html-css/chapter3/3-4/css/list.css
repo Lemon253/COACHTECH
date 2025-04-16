@@ -1,0 +1,31 @@
+
+.list {
+    width: 200px;
+    padding: 10px 30px;
+    background: #fbfbf6;
+    border-radius: 10px;
+}
+.item {
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+/* 横並び */
+.list-wrapper {
+    font-weight: bold;
+    color: #999;
+}
+.list2 {
+    display: flex;
+    align-items: baseline; /* 子要素を基準線に揃える */
+    padding: 10px 6px;
+    list-style: none; /* デフォルトのリストマーカーを非表示にする */
+}
+.item2:not(:last-of-type){
+    margin-right: 20px; /* 最後のアイテム以外に右マージンを設定 */
+}
+.item2:first-of-type {
+    line-height: 1.4;
+    color: #555;
+    border-bottom: 1.5px solid #d7b071;
+}
